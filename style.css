@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg");
+    text-align: center;
+}
+#text1{
+    background-color: chartreuse;
+    width: max-content;
+    border-radius: 12px;
+    padding:12px ; 
+}
+#take_snapshot{
+    background-color: crimson;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 12px;
+}
+canvas{
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
